@@ -1,7 +1,7 @@
 export const tweetsData = [
   {
     handle: `@ThisCharmingMan`,
-    profilePic: `images/IMG_0351 (1).jpg`,
+    profilePic: `images/IMG_0351 (1).JPG`,
     likes: 27,
     retweets: 10,
     tweetText: `Do time measurements exist in Star Wars? Like does anyone ever say "I haven't seen Boba Fett since last Thursday" or "I got Vader coming over for brunch at noon"?`,
@@ -34,7 +34,7 @@ export const tweetsData = [
   },
   {
     handle: `@NewCoder75`,
-    profilePic: `images/IMG_1482.png`,
+    profilePic: `images/IMG_1482.PNG`,
     likes: 10,
     retweets: 3,
     tweetText: `Are you a coder if you only know HTML?`,
