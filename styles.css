@@ -18,6 +18,10 @@ img {
   border-radius: 50%;
 }
 
+.feed img {
+  width: 4em;
+}
+
 #letter {
   width: 6em;
 }
