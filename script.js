@@ -29,3 +29,18 @@ function handleLikeClick(tweedId) {
   targetTweetObj.isLiked = !targetTweetObj.isLiked;
   render();
 }
+
+function handleRetweetClick(tweetId) {
+  const targetTweetObj = tweetsData.filter(function (tweet) {
+    return tweet.uuid === tweetId;
+  })[0];
+
+  if (targetTweetObj.isRetweeted) {
+    targetTweetObj.retweets--;
+  } else {
+    targetTweetObj.retweets++;
+  }
+  // flip the boolean
+  targetTweetObj.isRetweeted = !targetTweetObj.isRetweeted;
+  render();
+}
