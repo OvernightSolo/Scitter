@@ -44,3 +44,18 @@ function handleRetweetClick(tweetId) {
   targetTweetObj.isRetweeted = !targetTweetObj.isRetweeted;
   render();
 }
+
+function handleTweetBtnClick() {
+  tweetsData.unshift({
+    handle: `@Scrimba`,
+    profilePic: `images/scrimbalogo.png`,
+    likes: 0,
+    retweets: 0,
+    tweetText: tweetInput.value,
+    replies: [],
+    isLiked: false,
+    isRetweeted: false,
+    uuid: uuidv4(),
+  });
+  render();
+}
