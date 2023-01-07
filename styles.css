@@ -13,6 +13,11 @@ h1 {
   font-size: 20px;
 }
 
+img {
+  width: 4em;
+  border-radius: 50%;
+}
+
 #letter {
   width: 6em;
 }
@@ -75,6 +80,7 @@ button {
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
+  margin-top: 2em;
 }
 
 /* tweet */
