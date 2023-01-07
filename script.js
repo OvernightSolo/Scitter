@@ -50,8 +50,8 @@ function handleReplyClick(replyId) {
 function handleTweetBtnClick() {
   if (tweetInput.value) {
     tweetsData.unshift({
-      handle: `@Scrimba`,
-      profilePic: `images/scrimbalogo.png`,
+      handle: `@User123`,
+      profilePic: `images/IMG_1929.JPG`,
       likes: 0,
       retweets: 0,
       tweetText: tweetInput.value,

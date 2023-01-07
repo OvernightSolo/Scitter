@@ -1,18 +1,17 @@
 export const tweetsData = [
   {
-    handle: `@TrollBot66756542 💎`,
+    handle: `@ThisCharmingMan`,
     profilePic: `images/IMG_0351 (1).jpg`,
     likes: 27,
     retweets: 10,
-    tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low prices. 
-           Guaranteed return on investment. HMU DMs open!!`,
+    tweetText: `Do time measurements exist in Star Wars? Like does anyone ever say "I haven't seen Boba Fett since last Thursday" or "I got Vader coming over for brunch at noon"?`,
     replies: [],
     isLiked: false,
     isRetweeted: false,
     uuid: "4b161eee-c0f5-4545-9c4b-8562944223ee",
   },
   {
-    handle: `@Elon ✅`,
+    handle: `@ScottSterling ✅`,
     profilePic: `images/IMG_0896.jpg`,
     likes: 6500,
     retweets: 234,
@@ -34,7 +33,7 @@ export const tweetsData = [
     uuid: "3c23454ee-c0f5-9g9g-9c4b-77835tgs2",
   },
   {
-    handle: `@NoobCoder12`,
+    handle: `@NewCoder75`,
     profilePic: `images/IMG_1482.png`,
     likes: 10,
     retweets: 3,
@@ -43,10 +42,10 @@ export const tweetsData = [
       {
         handle: `@StackOverflower ☣️`,
         profilePic: `images/overflow.png`,
-        tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
+        tweetText: `Absolutely not. Go get a job at Burger King.`,
       },
       {
-        handle: `@YummyCoder64`,
+        handle: `@SophieSushi`,
         profilePic: `images/love.png`,
         tweetText: `You are wonderful just as you are! ❤️`,
       },
