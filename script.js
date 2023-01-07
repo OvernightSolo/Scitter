@@ -14,3 +14,18 @@ document.addEventListener("click", function (e) {
     handleTweetBtnClick();
   }
 });
+
+function handleLikeClick(tweedId) {
+  const targetTweetObj = tweetsData.filter(function (tweet) {
+    return tweet.uuid === tweedId;
+  })[0];
+
+  if (targetTweetObj.isLiked) {
+    targetTweetObj.likes--;
+  } else {
+    targetTweetObj.likes++;
+  }
+  // flip the boolean
+  targetTweetObj.isLiked = !targetTweetObj.isLiked;
+  render();
+}
